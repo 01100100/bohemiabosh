@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bosh-to-bohemia"
+version = "0.1.0"
+description = ""
+authors = ["0110110 <davidwhittingham@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "bosh_to_bohemia" }]
+
+[tool.poetry.dependencies]
+python = "3.11.1"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+black = "^22.12.0"
+pylint = "^2.15.9"
+isort = "^5.11.3"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
