@@ -37,7 +37,7 @@ URL = "#checkpoints"
 weight = 2
 
 [[menu.main]]
-name = "Contact"
+name = "Signup"
 URL = "#signup"
 weight = 3
 

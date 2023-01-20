@@ -6,13 +6,12 @@ main:
       text: "Learn More"
       url: "#about"
 about:
-  title: "About us"
-  desc: "Max Ducim Qua Labo Pa Adre Nam Ased Di Ullam Ess Num Minim Quorecu Re Iur Ipsam Autemo Autem Max Iurer Ut Enim Praese Ips Fugia Ne Dig Assumen Cul Ipsum Velit Magna Inl Odio Enimodi Nonve Sunti Tem Incidu Velqui Lauda Assume Volupt Nih Es Autem Officia Culpa Impedit Harum Blandi Si Quis Dol Facilis Verodo Tot Quib Quoden"
+  title: "About"
+  desc: "Shred to Bohemia is intended to be a race where you decide how it looks like. We will give you the start, the checkpoints and the goal – in between it’s up to you. Make it a gravel-tour, make it a bike-packing adventure, make it mountain biking or stay on the road. With shred to bohemia we want to celebrate the path, so it is not about being the fastest – find your way, enjoy the ride, set-up your tent, look at the stars. As we really mean celebrating the path is the goal we will have several prices for which are not related to being as fast as possible."
   button:
     enable: true
-    text: "Button"
-    url: "#"
-  image: "assets/img/ipad.png"
+    text: "SignUp"
+    url: "#signup"
 checkpoints:
   checkpoint1:
     title: "Hollies"
@@ -21,7 +20,7 @@ checkpoints:
     img: "assets/img/demo-image-01.jpg"
   checkpoint2:
     title: "The Bunker"
-    text: "A suprise is hidden."
+    text: "A surprise is hidden."
     komoot: "https://www.komoot.de/highlight/3261225"
     img: "assets/img/bunker.jpg"
   checkpoint3:
