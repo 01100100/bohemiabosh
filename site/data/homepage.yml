@@ -1,13 +1,10 @@
-# Main Title
 main:
   header:
-    title: "Bosh to Bohemia"
+    title: "Shred 2 Bohemia"
     description: "Start a journey, prepared for the unknown."
     button:
       text: "Learn More"
       url: "#about"
-
-# About
 about:
   title: "About us"
   desc: "Max Ducim Qua Labo Pa Adre Nam Ased Di Ullam Ess Num Minim Quorecu Re Iur Ipsam Autemo Autem Max Iurer Ut Enim Praese Ips Fugia Ne Dig Assumen Cul Ipsum Velit Magna Inl Odio Enimodi Nonve Sunti Tem Incidu Velqui Lauda Assume Volupt Nih Es Autem Officia Culpa Impedit Harum Blandi Si Quis Dol Facilis Verodo Tot Quib Quoden"
@@ -16,17 +13,34 @@ about:
     text: "Button"
     url: "#"
   image: "assets/img/ipad.png"
-
-projects:
-  card1:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/bg-masthead.jpg"
-  card2:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
+checkpoints:
+  checkpoint1:
+    title: "Hollies"
+    text: "Cake awaits!"
+    komoot: "https://www.komoot.de/highlight/100247"
     img: "assets/img/demo-image-01.jpg"
-  card3:
-    title: "Graysx"
-    text: "Place Cons Rerum Provide SuntSin Incid Fac Nonse Mollitia Quia Itaque! Iusto Necessi Ullam Recusand Nobi Quo Nequ Inulla Beatae Recusand Suscipit Ip Autem Rep Dol Quoquis Inu Rer Odiorem Suscipi Praes Accusant Quia Quosqu Anim Incidunt Nobis Odio Omnis"
-    img: "assets/img/demo-image-02.jpg"
+  checkpoint2:
+    title: "The Bunker"
+    text: "A suprise is hidden."
+    komoot: "https://www.komoot.de/highlight/3261225"
+    img: "assets/img/bunker.jpg"
+  checkpoint3:
+    title: "Flugplatz Kleinkoschen"
+    text: "TODO: decide if this is going to be the 3rd checkpoint."
+    komoot: "https://www.komoot.de/highlight/4281308"
+    img: "assets/img/demo-image-01.jpg"
+  checkpoint4:
+    title: "Schrammsteinaussicht"
+    text: "Lookout over Bohemia"
+    komoot: "https://www.komoot.de/highlight/3261225"
+    img: "assets/img/elbesandstein.jpg"
+  checkpoint5:
+    title: "The End"
+    text: "Food will be waiting!"
+    komoot: "https://www.komoot.de/highlight/4716665"
+    img: "assets/img/demo-image-01.jpg"
+  start:
+    title: "Berlin"
+    text: "Where it begins"
+    komoot: "https://www.komoot.de/highlight/4716665"
+    img: "assets/img/berlin-tv-tower.jpg"
