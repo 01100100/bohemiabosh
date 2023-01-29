@@ -1,13 +1,12 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: document
   path: site/data/homepage.yml
   label: data
-  match: "**/*"
 upload_dir: site/static/assets/img
 public_path: "/assets/img"
 front_matter_path: ''
