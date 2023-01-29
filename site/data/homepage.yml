@@ -27,7 +27,7 @@ checkpoints:
     img: assets/img/demo-image-01.jpg
   checkpoint2:
     title: The Bunker
-    text: A surprise is hidden.
+    text: A surprise is hidden. G
     komoot: https://www.komoot.de/highlight/3261225
     img: assets/img/bunker.jpg
   checkpoint3:
