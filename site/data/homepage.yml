@@ -8,10 +8,13 @@ main:
       url: "#about"
 about:
   title: About
-  desc: |-
-    Shred to Bohemia is intended to be a race where you decide how it looks like. We will give you the start, the checkpoints and the goal – in between it’s up to you. Make it a gravel-tour, make it a bike-packing adventure, make it mountain biking or stay on the road. With shred to bohemia we want to celebrate the path, so it is not about being the fastest – find your way, enjoy the ride, set-up your tent, look at the stars. As we really mean celebrating the path is the goal we will have several prices for which are not related to being as fast as possible.
-
-    **2023-04-01 ~ 2023-04-02**
+  desc: Shred to Bohemia is intended to be a race where you decide how it looks like.
+    We will give you the start, the checkpoints and the goal – in between it’s up
+    to you. Make it a gravel-tour, make it a bike-packing adventure, make it mountain
+    biking or stay on the road. With shred to bohemia we want to celebrate the path,
+    so it is not about being the fastest – find your way, enjoy the ride, set-up your
+    tent, look at the stars. As we really mean celebrating the path is the goal we
+    will have several prices for which are not related to being as fast as possible.
   button:
     enable: true
     text: SignUp
