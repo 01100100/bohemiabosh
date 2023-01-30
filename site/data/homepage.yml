@@ -2,7 +2,7 @@
 main:
   header:
     title: Shred 2 Bohemia
-    description: Start a journey, prepared for the unknown... **2023-04-01 ~ 2023-04-02**
+    description: Start a journey, prepared for the unknown... **2023-04-01 ~> 2023-04-02**
     button:
       text: Learn More
       url: "#about"
