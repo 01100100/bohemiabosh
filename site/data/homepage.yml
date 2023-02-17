@@ -11,7 +11,8 @@ main:
 about:
   title: About
   date: 2023-04-01 ~> 2023-04-02
-  desc: Shred to Bohemia is an invitation to embark on an adventure, where you
+  desc: |
+    Shred to Bohemia is an invitation to embark on an adventure, where you
     decide how it looks like. We will give you the start, the checkpoints and
     the goal – in between it’s  up to you. Make it a gravel-tour, make it a
     bike-packing adventure, make it mountain biking shred fest or stay on the
