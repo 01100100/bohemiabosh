@@ -54,6 +54,7 @@ repos:
     rev: v0.33.0
     hooks:
       - id: markdownlint
+        args: ["--fix"]
   - repo: https://github.com/Yelp/detect-secrets
     rev: v1.4.0
     hooks:
