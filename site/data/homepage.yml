@@ -34,31 +34,49 @@ about:
 checkpoints:
   checkpoint1:
     title: Hollies
+    coordinates:
+      lat: 52.3507042
+      long: 13.8607229
     text: Cake await!
     komoot: https://www.komoot.de/highlight/100247
     img: assets/img/demo-image-01.jpg
   checkpoint2:
     title: The Bunker
-    text: A surprise is hidden.
+    coordinates:
+      lat: 52.0391540
+      long: 13.7610070
+    text: A surprise is hidden
     komoot: https://www.komoot.de/highlight/3261225
     img: assets/img/bunker.jpg
   checkpoint3:
     title: Flugplatz Kleinkoschen
-    text: "TODO: decide if this is going to be the 3rd checkpoint."
+    coordinates:
+      lat: 51.5142700
+      long: 14.0807590
+    text: "The sky bridge"
     komoot: https://www.komoot.de/highlight/4281308
     img: assets/img/demo-image-01.jpg
   checkpoint4:
     title: Schrammsteinaussicht
+    coordinates:
+      lat: 50.9124570
+      long: 14.2047540
     text: Lookout over Bohemia
-    komoot: https://www.komoot.de/highlight/3261225
+    komoot: https://www.komoot.de/highlight/89701
     img: assets/img/elbesandstein.jpg
   checkpoint5:
     title: The End
+    coordinates:
+      lat: 50.8415450
+      long: 14.2139770
     text: Food will be waiting!
     komoot: https://www.komoot.de/highlight/4716665
     img: assets/img/demo-image-01.jpg
   start:
     title: Berlin
+    coordinates:
+      lat: 52.5162540
+      long: 13.3768850
     text: Where it begins
-    komoot: https://www.komoot.de/highlight/4716665
+    komoot: https://www.komoot.de/highlight/73503
     img: assets/img/berlin-tv-tower.jpg
