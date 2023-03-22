@@ -4,13 +4,13 @@ main:
     title: Shred 2 Bohemia
     description: |
       Start a journey, prepared for the unknown...
-      **2023-04-01 ~> 2023-04-02**
+      ** DELAYED! ** find out more below **
     button:
       text: Learn More
       url: "#about"
 about:
   title: About
-  date: 2023-04-01 ~> 2023-04-02
+  # date: 2023-04-01 ~> 2023-04-02
   desc: |
     Shred to Bohemia is an invitation to embark on an adventure, where you
     decide how it looks like. We will give you the start, the checkpoints and
@@ -23,10 +23,17 @@ about:
     at the stars. As we really mean celebrating the path is the goal we will
     have several prizes that are not related to being as fast as possible.
 
-    So what are you waiting for? Join us under Brandenburger Tor on Saturday
-    2023-04-01 @ 09:00
+    ~~**Due to a the current situation that there are too many bike events
+    happening (what a problem to have!) Shred2Bohemia is being pushed back a
+    couple months.**~~
 
-    Start the adventure and unleash the explorer within!
+    Shred2Bohemia will definitely happen one weekend in July or August, the
+    exact date is still to be decided. We are excited to unveil the surprises
+    in store. Until then go and enjoy the nature and the fresh spring summer
+    and enjoy the Shred.
+
+    Subscribe below to stay notified.
+
   button:
     enable: true
     text: SignUp
