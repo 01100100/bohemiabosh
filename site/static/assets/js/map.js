@@ -6,34 +6,26 @@ var start = L.marker([52.5162540, 13.3768850]),
     end = L.marker([50.8415450, 14.2139770])
 var checkpoints = L.layerGroup([start, cp1, cp2, cp3, cp4, end])
 
-var start = L.marker([52.5162540, 13.3768850], { icon: L.divIcon({ className: 'poi', html: '<b>x</b>' }) }),
-    cp1 = L.marker([52.3507042, 13.8607229], { icon: L.divIcon({ className: 'poi', html: '<b>x</b>' }) }),
-    cp2 = L.marker([52.0391540, 13.7610070], { icon: L.divIcon({ className: 'poi', html: '<b>x</b>' }) }),
-    cp3 = L.marker([51.5142700, 14.0807590], { icon: L.divIcon({ className: 'poi', html: '<b>x</b>' }) }),
-    cp4 = L.marker([50.9124570, 14.2047540], { icon: L.divIcon({ className: 'poi', html: '<b>x</b>' }) }),
-    end = L.marker([50.8415450, 14.2139770], { icon: L.divIcon({ className: 'poi', html: '<b>x</b>' }) })
-var checkpoints_x = L.layerGroup([start, cp1, cp2, cp3, cp4, end])
 
-var start = L.marker([52.5162540, 13.3768850], { icon: L.divIcon({ className: 'poi', html: '<b>🤙</b>' }) }),
-    cp1 = L.marker([52.3507042, 13.8607229], { icon: L.divIcon({ className: 'poi', html: '<b>🤙</b>' }) }),
-    cp2 = L.marker([52.0391540, 13.7610070], { icon: L.divIcon({ className: 'poi', html: '<b>🤙</b>' }) }),
-    cp3 = L.marker([51.5142700, 14.0807590], { icon: L.divIcon({ className: 'poi', html: '<b>🤙</b>' }) }),
-    cp4 = L.marker([50.9124570, 14.2047540], { icon: L.divIcon({ className: 'poi', html: '<b>🤙</b>' }) }),
-    end = L.marker([50.8415450, 14.2139770], { icon: L.divIcon({ className: 'poi', html: '<b>🤙</b>' }) })
-var checkpoints_emoji = L.layerGroup([start, cp1, cp2, cp3, cp4, end])
+const stamen_watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
+    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    subdomains: 'abcd',
+    minZoom: 1,
+    maxZoom: 16,
+    ext: 'jpg'
+})
 
-const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-});
 const map = L.map('map', {
     center: [52.0391540, 13.7610070],
-    zoom: 7,
-    layers: [osm, checkpoints]
+    zoom: 6,
+    layers: [stamen_watercolor, checkpoints]
 });
 
 const baseLayers = {
-    'OpenStreetMap': osm,
+    'OpenStreetMap': L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }),
     'OpenStreetMap_Mapnik': L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -117,10 +109,4 @@ const baseLayers = {
     })
 };
 
-var overlayMaps = {
-    "Checkpoints": checkpoints,
-    "x": checkpoints_x,
-    "emoji": checkpoints_emoji
-}
-
-const layerControl = L.control.layers(baseLayers, overlayMaps).addTo(map);
+layerControl = L.control.layers(baseLayers).addTo(map);
