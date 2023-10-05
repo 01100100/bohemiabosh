@@ -7,8 +7,8 @@ var start = L.marker([52.5162540, 13.3768850]),
 var checkpoints = L.layerGroup([start, cp1, cp2, cp3, cp4, end])
 
 
-const stamen_watercolor = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
-    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+const stamen_watercolor = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg', {
+    attribution: 'Map tiles by &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> + &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     subdomains: 'abcd',
     minZoom: 1,
     maxZoom: 16,
@@ -47,34 +47,34 @@ const baseLayers = {
         maxZoom: 20,
         attribution: '<a href="https://github.com/cyclosm/cyclosm-cartocss-style/releases" title="CyclOSM - Open Bicycle render">CyclOSM</a> | Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }),
-    "Stamen_Watercolor": L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    "Stamen_Watercolor": L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg', {
+        attribution: 'Map tiles by &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> + &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         subdomains: 'abcd',
         minZoom: 1,
         maxZoom: 16,
         ext: 'jpg'
-    }), 'Stamen_Terrain': L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }), 'Stamen_Terrain': L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.jpg', {
+        attribution: 'Map tiles by &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> + &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> + &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         subdomains: 'abcd',
         minZoom: 0,
         maxZoom: 18,
         ext: 'png'
-    }), 'Stamen_Toner': L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }), 'Stamen_Toner': L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner/{z}/{x}/{y}{r}.jpg', {
+        attribution: 'Map tiles by &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> + &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> + &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         subdomains: 'abcd',
         minZoom: 0,
         maxZoom: 20,
         ext: 'png'
     }),
-    'Stamen_TonerLite': L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    'Stamen_TonerLite': L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.jpg', {
+        attribution: 'Map tiles by &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> + &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> + &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         subdomains: 'abcd',
         minZoom: 0,
         maxZoom: 20,
         ext: 'png'
     }),
-    'Stamen_TerrainBackground': L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain-background/{z}/{x}/{y}{r}.{ext}', {
-        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    'Stamen_TerrainBackground': L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain-background/{z}/{x}/{y}{r}.jpg', {
+        attribution: 'Map tiles by &copy; <a href="https://stamen.com/" target="_blank">Stamen Design</a> + &copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> + &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         subdomains: 'abcd',
         minZoom: 0,
         maxZoom: 18,
